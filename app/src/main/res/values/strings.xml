@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Plan zajec</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="activity">Activity</string>
+    <string name="room">Room</string>
+    <string name="hour">Hour</string>
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="delete_desc">This entry will be deleted</string>
+    <string name="setStartTime">Set Start Time</string>
+    <string name="setEndTime">Set End Time</string>
+    <string name="dayDesc">Day:</string>
+    <string name="roomDesc">Room:</string>
+    <string name="startDesc">Start:</string>
+    <string name="endDesc">End:</string>
+    <string name="durationDesc">Duration:</string>
+    <string name="lecturerDesc">Lecturer:</string>
+    <string name="place_icon">Place icon</string>
+    <string name="calendar_icon">Calendar icon</string>
+    <string name="clock_in_icon">Clock in icon</string>
+    <string name="clock_out_icon">Clock out icon</string>
+    <string name="duration_icon">Duration icon</string>
+    <string name="lecturer_icon">Lecturer icon</string>
+    <string name="lecturer">Lecturer</string>
+    <string-array name="daysOfTheWeek">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="subjectTypes">
+        <item>Lecture</item>
+        <item>Exercise</item>
+        <item>Laboratory</item>
+    </string-array>
+
+</resources>

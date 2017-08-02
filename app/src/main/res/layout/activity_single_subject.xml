@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_subject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.stryju.planzajec.SingleSubjectActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subject_name_textview"
+            android:textSize="28sp"
+            tools:text="Subject"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/singleSubjectTypeTextView"
+            android:layout_weight="1"
+            android:gravity="end"
+            tools:text="Type" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_calendar_24dp"
+            android:id="@+id/imageView1"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/calendar_icon"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp">
+
+            <TextView
+                android:text="@string/dayDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/single_subject_day_textview"
+                tools:text="Day"
+                android:layout_weight="1"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_place_black_24dp"
+            android:id="@+id/imageView2"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/place_icon"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp">
+
+            <TextView
+                android:text="@string/roomDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject_room_textview"
+                tools:text="Room"
+                android:layout_weight="1"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_clock_in"
+            android:id="@+id/imageView3"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/clock_in_icon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp">
+
+            <TextView
+                android:text="@string/startDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleSubjectStartTimeTextView"
+                android:textSize="20sp"
+                tools:text="Start Time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_clock_out"
+            android:id="@+id/imageView4"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/clock_out_icon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp">
+
+            <TextView
+                android:text="@string/endDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleSubjectEndTimeTextView"
+                android:textSize="20sp"
+                tools:text="End Time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_time"
+            android:id="@+id/imageView5"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/duration_icon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp">
+
+            <TextView
+                android:text="@string/durationDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleSubjectDurationTextView"
+                android:textSize="20sp"
+                tools:text="Duration" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_person_24dp"
+            android:id="@+id/imageView6"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/lecturer_icon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp">
+
+            <TextView
+                android:text="@string/lecturerDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleSubjectLecturerTextView"
+                android:textSize="20sp"
+                tools:text="Duration" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

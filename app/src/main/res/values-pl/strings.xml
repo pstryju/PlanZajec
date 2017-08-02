@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plan zajęć</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="activity">Zajęcia</string>
+    <string name="delete_desc">Wpis zostanie usunięty.</string>
+    <string name="edit">Edytuj</string>
+    <string name="hour">Godzina</string>
+    <string name="remove">Usuń</string>
+    <string name="save">Zapisz</string>
+    <string name="setStartTime">Ustaw czas rozpoczęcia</string>
+    <string name="setEndTime">Ustaw czas zakończenia</string>
+
+    <string-array name="daysOfTheWeek">
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+    </string-array>
+    <string-array name="subjectTypes">
+        <item>Wykład</item>
+        <item>Ćwiczenia</item>
+        <item>Laboratorium</item>
+    </string-array>
+    <string name="dayDesc">Dzień:</string>
+    <string name="durationDesc">Długość:</string>
+    <string name="endDesc">Koniec:</string>
+    <string name="roomDesc">Sala:</string>
+    <string name="startDesc">Początek:</string>
+    <string name="calendar_icon">Ikona kalendarza</string>
+    <string name="clock_in_icon">Ikona początku</string>
+    <string name="clock_out_icon">Ikona końca</string>
+    <string name="duration_icon">Ikona długości</string>
+    <string name="lecturer">Wykładowca</string>
+    <string name="lecturerDesc">Wykładowca:</string>
+    <string name="lecturer_icon">Ikona wykładowcy</string>
+    <string name="place_icon">Ikona miejsca</string>
+    <string name="room">Sala</string>
+    <string name="action_delete">Usuń</string>
+    <string name="action_edit">Edytuj</string>
+</resources>
